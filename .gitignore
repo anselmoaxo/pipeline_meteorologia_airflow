@@ -1,0 +1,47 @@
+# Ignorar arquivos de configuração local do Airflow
+airflow.cfg
+unittests.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# Ignorar diretórios e arquivos de logs do Airflow
+logs/
+tmp/
+
+# Ignorar o banco de dados local do Airflow (SQLite, caso usado para testes locais)
+airflow.db
+
+# Ignorar arquivos e diretórios de saída temporários e cachê
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignorar arquivos de credenciais e configurações
+.env
+
+# Ignorar arquivos específicos de sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos do Jupyter Notebook (caso utilizados)
+.ipynb_checkpoints/
+
+# Ignorar diretório de dados do datalake local (ajuste o caminho se necessário)
+
+
+# Ignorar diretórios e arquivos do Docker
+docker-compose.yml
+.docker/
+Dockerfile
+.dockerignore
+
+# Ignorar arquivos e diretórios do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar dependências instaladas em um ambiente virtual
+venv/
+.env/
